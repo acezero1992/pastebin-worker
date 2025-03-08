@@ -15,19 +15,19 @@ rules = [
 
 [[routes]]
 # Refer to https://developers.cloudflare.com/workers/wrangler/configuration/#routes
-pattern = "shz.al"
+pattern = "168200.xyz"
 custom_domain = true
 
 [[kv_namespaces]]
 binding = "PB"  # do not touch this
-id = "cc398e983a234aa19de5ea6af571a483"  # id of your KV namespace
+id = "64970edc02684722a0f7fb7c869545ac"  # id of your KV namespace
 
 [vars]
 # must be consistent with your routes
-BASE_URL = "https://shz.al"
+BASE_URL = "https://168200.xyz/pb"
 
 # url to repo, displayed in the index page
-REPO = "https://github.com/SharzyL/pastebin-worker"
+REPO = "https://google.com"
 
 # url to the favicon
 FAVICON = "https://sharzy.in/favicon-32x32.png"
@@ -36,7 +36,7 @@ FAVICON = "https://sharzy.in/favicon-32x32.png"
 TOS_MAINTAINER = "Sharzy"
 
 # the email displayed in TOS
-TOS_MAIL = "pb@shz.al"
+TOS_MAIL = "ikun@linux.do"
 
 # Cache-Control max-age for static pages
 CACHE_STATIC_PAGE_AGE = 7200
